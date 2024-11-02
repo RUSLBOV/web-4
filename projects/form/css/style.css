@@ -1,0 +1,74 @@
+body{
+    background-color: #2148C0;
+}
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hola{
+    padding-bottom: 6%;
+    margin-bottom: 5vh;
+    font-size: 20px;
+    border-radius: 1px;
+    background-color: #E5E5E5;
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    background-color: #2148C0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-name input{
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    color:whitesmoke;
+    border-color: #E5E5E5;
+    background-color: #2148C0;
+    height: 6vh;
+}
+.form-surname input{
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 200;
+    height: 6vh;
+    color:whitesmoke;
+    border-color: #E5E5E5;
+    background-color: #2148C0;
+}
+.form-name{
+    padding-bottom: 20px;
+}
+.submitContainer{
+    padding-top: 20px;
+    width: 30%;
+
+}
+.applyBtn:hover{
+    cursor: pointer;
+    background-color: rgb(224, 237, 250);
+    border: none;
+    transition-delay: 90ms;
+}
+.applyBtn{
+    width: 100%;
+    height: 6vh;
+    color: #2148C0;
+}
+.submitContainer{
+    width: 50%;
+    height: 5vh;
+}
+*::placeholder{
+    text-align: center;
+    color: whitesmoke;
+}
+.msg{
+    font-size: 12px;
+    color: whitesmoke;
+}
